@@ -6,13 +6,12 @@ using System.Web.Mvc;
 
 namespace Data_Structure_HW.Controllers
 {
-    public class HomeController : Controller
+    public class ExitController : Controller
     {
-        // GET: Home
-        public ViewResult Index()
+        // GET: Exit
+        public ActionResult Index()
         {
             return View();
         }
-
     }
 }
